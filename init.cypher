@@ -69,5 +69,5 @@ CREATE (c5)-[:WORKS_ON]->(m5)
 CREATE (m5)-[:USES]->(t5)
 CREATE (m5)-[:USES]->(t6)
 
-CREATE (c:Consultant {id:6, name:'Lora',born:1995});
+CREATE (c:Consultant {id:6, name:'Lora',born:1995})
 CREATE (c)-[:SKILL {lvl:9}]->(t6)
